@@ -33,7 +33,7 @@ const all_products = [
       "https://gymbeam.ro/media/catalog/product/cache/70f742f66feec18cb83790f14444a3d1/g/l/gluten_free_oat_flour_500_g_gymbeam.png",
     productName: "Faina de ovaz",
     productDescription:
-      "Făina de ovăz fără gluten reprezintă o alternativă ideală la făina tradițională de grâu și este potrivită pentru toate persoanele care au probleme cu digerarea glutenului sau care îl evită din orice alt motiv.",
+      "Făina de ovăz fără gluten reprezintă o alternativă ideală la făina tradițională de grâu și este potrivită pentru toate persoanele care au probleme cu digerarea glutenului.",
     productPrice: 12.99,
   },
   {

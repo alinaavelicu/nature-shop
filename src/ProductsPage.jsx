@@ -39,14 +39,16 @@ function ProductsPage() {
 
       <div className="grid grid-cols-3 bg-[#F4FFF6]">
         {displayedProducts.map((product) => (
-          <ProductCard
-            key={product.id}
-            id={product.id}
-            imageSrc={product.imageSrc}
-            productName={product.productName}
-            productDescription={product.productDescription}
-            productPrice={product.productPrice}
-          />
+          <div className="flex justify-center m-8">
+            <ProductCard
+              key={product.id}
+              id={product.id}
+              imageSrc={product.imageSrc}
+              productName={product.productName}
+              productDescription={product.productDescription}
+              productPrice={product.productPrice}
+            />
+          </div>
         ))}
       </div>
       <Footer />
