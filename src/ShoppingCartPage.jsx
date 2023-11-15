@@ -10,10 +10,15 @@ function ShoppingCartPage() {
   return (
     <>
       <Navbar />
-      <div className="flex justify-center m-8">
-        <CartList />
+      <div className="bg-[#F4FFF6] flex ">
+        <div className="w-1/2 p-4 max-w-md mt-4 ml-[20px]">
+          <CartList />
+        </div>
+        <div className="w-1/2 ml-[200px]">
+          <Form />
+        </div>
       </div>
-      <Form />
+
       <Footer />
     </>
   );

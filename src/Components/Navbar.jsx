@@ -1,5 +1,5 @@
 import React from "react";
-import { Cart } from "./Cart";
+import { Cart } from "./CartIcon";
 import { User } from "./User";
 import { Logo } from "./Logo";
 import { NavbarButton } from "./NavbarButtons";

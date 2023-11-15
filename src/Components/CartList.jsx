@@ -36,7 +36,7 @@ function CartList() {
 
   return (
     <div>
-      <table className="text-center">
+      <table className="text-center shadow-lg bg-white text-sm font-medium text-gray-700">
         <thead>
           <tr>
             <Cell>Nume produs</Cell>
@@ -65,7 +65,6 @@ function CartList() {
           })}
         </tbody>
       </table>
-
       <div className="flex justify-end">Total: {total} RON</div>
     </div>
   );

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useSubmit } from "react-router-dom";
 export { Form };
 
 function Form() {
@@ -44,8 +43,10 @@ function Form() {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-8 p-4 border rounded shadow-lg">
-      <h2 className="text-2xl mb-4">Completeaza datele pentru livrare</h2>
+    <div className="p-4 max-w-md mx-auto mt-8 border border-black rounded shadow-lg bg-white mb-8">
+      <h2 className="text-2xl mb-4 font-medium text-gray-700">
+        Completeaza datele pentru livrare
+      </h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
           <label
@@ -132,7 +133,7 @@ function Form() {
             required
           />
         </div>
-        <div className="mt-4 p-4 border rounded shadow-sm">
+        <div className="mt-4 p-4 border rounded shadow-sm block text-sm font-medium text-gray-700 ">
           <p>Alege metoda de livrare:</p>
           <div>
             <input
@@ -161,7 +162,7 @@ function Form() {
             </label>
           </div>
         </div>
-        <div className="mt-4 p-4 border rounded shadow-lg">
+        <div className="mt-4 p-4 border rounded shadow-lg block text-sm font-medium text-gray-700">
           <p>Select Payment Method:</p>
           <div>
             <input
