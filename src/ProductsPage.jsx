@@ -27,17 +27,17 @@ function ProductsPage() {
   return (
     <>
       <Navbar />
-      <div className="flex justify-center">
+      <div className="flex justify-center bg-[#F4FFF6]">
         <input
           placeholder="Search..."
           type="search"
           id="searchBar"
           onChange={(e) => setSearchInput(e.target.value)}
-          className="px-4 py-2 mt-6 border rounded-lg focus:outline-none focus:ring focus:border-blue-300"
+          className="px-4 py-2 mt-6 border-2 rounded-lg focus:outline-none border-[#D6E8DA] focus:ring-[#86B490] focus:border-[#86B490]"
         />
       </div>
 
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-3 bg-[#F4FFF6]">
         {displayedProducts.map((product) => (
           <ProductCard
             key={product.id}

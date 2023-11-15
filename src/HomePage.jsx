@@ -11,7 +11,7 @@ function HomePage() {
         <img
           alt="Home"
           src="./Mozaic2.png"
-          className="object-cover h-fit w-fit"
+          className="w-full object-cover h-fit"
         ></img>
       </div>
       <Footer />

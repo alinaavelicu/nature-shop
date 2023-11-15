@@ -10,7 +10,7 @@ function ProductCard(props) {
 
   return (
     <div className="flex justify-center m-8">
-      <div className="w-80 p-3 bg-white rounded-lg">
+      <div className="w-80 p-3 bg-white rounded-lg border-2 border-[#D6E8DA]">
         <div className="img-container p-8 bg-gray-100 rounded-lg">
           <img src={imageSrc} alt="img_product" />
         </div>
